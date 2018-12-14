@@ -1,0 +1,43 @@
+/*efecto blut para la imagen 1 de retratos*/
+.filtro1{
+/*efecto blur*/
+web-kit-filter:blur(10px);
+filter: blur(10px);
+		}
+.pares{
+/*efecto grayscale*/
+web-kit-filter:grayscale(60%);
+filter: grayscale(60%);
+}
+.sepia{
+web-kit-filter:sepia(80%);
+filter: sepia(80%);
+}
+/*realza los colores*/
+.brightness{
+web-kit-filter:brightness(100%);
+filter: brightness(100%);
+}
+
+.rotate{
+-webkit-transition: -webkit-transform 1s ease-out;
+ -moz-transition: -moz-transform 1s ease-out;
+ transition: transform 1s ease-out;
+}
+.rotate:hover{
+-webkit-transform: rotate(10deg);
+ -moz-transform: rotate(10deg);
+ transform: rotate(10deg);
+ cursor: pointer;
+box-shadow:2px  2px #82c3a6;
+}
+.transformado {
+transform: translate(20px);  
+}
+.transformado:hover{
+transform: translate(50px);
+ cursor: pointer;
+ border:2px #82c3a6;
+
+}
+/*iconos redes spciales*/
